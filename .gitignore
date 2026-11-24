@@ -1,0 +1,13 @@
+/target
+**/target
+/.cargo-home
+/plugins
+apps/admin/
+apps/l2beat/
+.DS_Store
+.env
+.env.*
+**/Cargo.lock
+
+# Claude Code worktrees (transient, must never be committed)
+.claude/worktrees/
